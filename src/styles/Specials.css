@@ -1,0 +1,28 @@
+.specials-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    margin-top: 5rem;
+}
+
+.specials-section {
+    width: 100%; /* Ensure the section takes up the full width */
+    max-width: 1200px; /* Adjust as needed */
+    padding: 0 5%; /* Adjust padding as needed */
+}
+
+.specials-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.special-dishes-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.specials-title {
+    color: #333333;
+}

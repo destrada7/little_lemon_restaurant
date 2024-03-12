@@ -1,10 +1,11 @@
 import React from 'react';
-import Logo from '../images/Logo.svg';
+import lemonLogo from '../images/Logo.svg';
+import '../styles/Header-Nav.css';
 
 const Header = () => {
     return(
-        <header>
-            <img src={Logo} alt='Little Lemon Logo'/>;
+        <header className='nav-logo'>
+            <img src={lemonLogo} alt='Little Lemon Logo'/>
         </header>
     );
 };

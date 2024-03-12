@@ -1,15 +1,21 @@
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
+import Specials from './components/Specials'
+import Prefooter from './components/Prefooter';
 import Footer from './components/Footer';
-import import './App.css';
+import './App.css';
 
 function App() {
   return (
     <>
-    <Header />
-    <Nav />
+    <div className='nav-container'>
+      <Header />
+      <Nav />
+    </div>
     <Main />
+    <Specials />
+    <Prefooter />
     <Footer />
     </>
   );

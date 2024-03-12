@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: Verdana, sans-serif;
+  color:#F4CE14;
+}
+
+h2, h3 {
+  font-family: Verdana, sans-serif;
+}
+
+p {
+  font-family: Tahoma, sans-serif;
+}
