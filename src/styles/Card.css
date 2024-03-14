@@ -7,7 +7,7 @@
   overflow: hidden;
   box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
   width: 15.625rem;
-  margin-bottom: 1rem; /* Add margin-bottom */
+  margin-bottom: 1rem;
   background-color: #EDEFEE;
 }
 

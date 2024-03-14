@@ -1,0 +1,37 @@
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider-container img {
+    width: 100%; /* Set the width to 100% of the container */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: cover; /* Ensure the images cover the entire container */
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.slider-button:nth-child(1) {
+    left: 0;
+}
+
+.slider-button:nth-child(2) {
+    right: 0;
+}

@@ -1,0 +1,73 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    background-color: #495E57;
+    color: #F4CE14;
+    margin-top: 2rem;
+    max-width: 100%;
+    padding: 3.5rem 5%;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.legend-footer {
+    align-self: flex-end;
+}
+
+.legend-footer p {
+    color:#EDEFEE;
+}
+
+.link-list ul,
+.contact-footer ul,
+.social-media-footer ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.link-list ul li,
+.contact-footer ul li,
+.social-media-footer ul li {
+  margin-bottom: 0.5rem; /* Add margin between list items */
+}
+
+.link-list ul li a,
+.contact-footer ul li a,
+.social-media-footer ul li a {
+  text-decoration: none; /* Remove default underline */
+  color: #EDEFEE; /* Set default text color */
+  transition: color 0.3s ease; /* Add transition for color change */
+}
+
+.link-list ul li a:hover,
+.contact-footer ul li a:hover,
+.social-media-footer ul li a:hover {
+  color: #F4CE14; /* Change text color on hover */
+}
+
+.link-list ul li a:visited,
+.contact-footer ul li a:visited,
+.social-media-footer ul li a:visited {
+  color: #EDEFEE; /* Set visited link color */
+}

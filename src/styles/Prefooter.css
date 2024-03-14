@@ -1,11 +1,33 @@
+.prefooter-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem 0;
+    padding: 0 5%;
+}
+
+.prefooter-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 17%;
+    padding: 0 1.5rem;
+    background-color: #EDEFEE;
+    border-radius: 0.5rem;
+}
+
 .titles_prefooter {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.prefooter-img img {
-    max-width: 20%;
+.prefooter-img {
+    max-width: 100%;
     height: auto;
-    object-fit: cover;
+}
+
+.prefooter-img img {
+    width: 30%;
+    height: auto;
+    border-radius: 0.5rem;
 }

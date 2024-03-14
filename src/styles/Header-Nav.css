@@ -11,6 +11,13 @@
     margin-top: 0.5rem;
   }
 
+.nav-logo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .nav-menu {
     grid-column: 6 / span 5; /* Place menu from 5th to 10th column */
     font-family: Tahoma, sans-serif;

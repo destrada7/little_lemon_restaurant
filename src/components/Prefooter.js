@@ -1,5 +1,6 @@
 import React from "react";
-import Chefs from "../images/mario_adrian_a.jpg";
+import "../styles/Prefooter.css"
+import Chef from "../images/alternative_chef.jpg"
 
 const Prefooter = () => {
     return(
@@ -7,7 +8,7 @@ const Prefooter = () => {
             <div className="prefooter-text-wrapper">
                 <div className="titles_prefooter">
                     <h2>Little Lemon</h2>
-                    <h3>Chicago</h3>
+                    <h3>About Us</h3>
                 </div>
                 <div className="prefooter-description">
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -15,7 +16,7 @@ const Prefooter = () => {
                 </div>
             </div>
             <div className="prefooter-img">
-                <img src={Chefs} alt="Chefs" />
+                <img src={Chef} alt="Chefs" />
             </div>
     </div>
     );
